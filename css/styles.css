@@ -1,10 +1,11 @@
 body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #f7e7d5;
-    color: #333;
-  }
-  
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: #f7e7d5;
+  color: #333;
+}
   header {
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,12 @@ body {
     padding: 20px 50px;
   }
   
+  
+  body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
   .logo {
     font-weight: bold;
     font-size: 1.5em;
@@ -110,13 +117,14 @@ body {
     color: #ee4b4b;
   }
   
-  .project-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 30px;
+  .project-row img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; 
   }
+  
   
   .project-row img {
     width: 150px;
@@ -165,5 +173,47 @@ body {
   
   .socials a:hover {
     text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .intro {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .about, .skills {
+      max-width: 100%;
+    }
+  
+    .photo img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .project-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-row img {
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .contact input,
+    .contact textarea {
+      width: 90%;
+    }
   }
   
