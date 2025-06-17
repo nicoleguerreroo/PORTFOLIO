@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f7e7d5;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: red;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #6b73ff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero h1 span {
+    color: #6b73ff;
+  }
+  
+  .subtitle {
+    color: #777;
+  }
+  
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about {
+    flex: 1 1 250px;
+    max-width: 400px;
+  }
+  
+  .photo img {
+    width: 200px;
+    border: 5px solid #6b73ff;
+  }
+  
+  .skills {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    color: #6b73ff;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+    background: #ee4b4b;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .icon:hover {
+    background: #ff7b7b;
+  }
+  
+  .projects {
+    padding: 50px;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    color: #6b73ff;
+  }
+  
+  .projects h3 {
+    color: #ee4b4b;
+  }
+  
+  .project-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .project-row img {
+    width: 150px;
+    border-radius: 10px;
+  }
+  
+  .contact {
+    background: #ee4b4b;
+    padding: 30px;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    border: none;
+    background: #6b73ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background: #9aa4ff;
+  }
+  
+  .socials a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .socials a:hover {
+    text-decoration: underline;
+  }
+  
