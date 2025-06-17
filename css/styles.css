@@ -47,6 +47,7 @@ body {
   .hero h1 {
     font-size: 3em;
     margin: 0;
+    color: #6b73ff;
   }
   
   .hero h1 span {
@@ -72,7 +73,6 @@ body {
   
   .photo img {
     width: 200px;
-
   }
   
   .skills {
@@ -111,26 +111,55 @@ body {
   .projects h2 {
     text-align: center;
     color: #6b73ff;
+    font-size: 300%;
   }
   
   .projects h3 {
     color: #ee4b4b;
+    text-align: center;
+    font-size: 220%;
+  }
+  
+  .project-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;  /* Esto centra las imágenes */
+    align-items: center;
   }
   
   .project-row img {
+    max-width: 150px; /* o el tamaño que quieras */
     width: 100%;
-    max-width: 150px;
     height: auto;
     border-radius: 10px;
-    object-fit: cover; 
+    object-fit: cover;
   }
-  
-  
+
   .project-row img {
     width: 150px;
     border-radius: 10px;
   }
   
+  .project-row img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .project-row.web img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .project-row img[alt="Web 1"] {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
   .contact {
     background: #ee4b4b;
     padding: 30px;
